@@ -1,0 +1,4 @@
+Esto es un git reset: Elimina archivos de area de preparacion 
+sintaxis es git reste HEAD nombreArchivo
+
+git HEAD elimina del stagin area todos los archivos del directorio donde no encontramos
