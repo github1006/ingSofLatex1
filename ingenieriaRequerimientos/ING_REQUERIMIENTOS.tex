@@ -1,0 +1,71 @@
+\documentclass[10pt,letterpaper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\setlength{\headheight}{25.19998pt}
+\usepackage{geometry}
+\usepackage{appendix}
+\usepackage{framed, color}
+\usepackage[spanish]{babel}
+\usepackage[table]{xcolor}
+%\usepackage[linktoc=page]{hyperref}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen,
+    }
+\usepackage{fancyhdr, lastpage} %\fancyhead[locations]{content}
+\usepackage{advdate}% Needed for \AdvanceDate
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%cabecera %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fancyhead{} %limpia todas las cabeceras
+\fancyhead[C]{
+\begin{tabular}{|l|l|l|}\hline
+Nombre del proyecto: FarmaKum & Version: 1.0 \\ \hline
+Visión:  & Fecha: \today \\ \hline
+\end{tabular}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%PEE DE PAGINA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fancyfoot[R]{pág. \thepage}
+\fancyfoot[C]{Farmcakum \textcopyright, 2022}
+\fancyfoot[L]{Público}
+%\cfoot{página \thepage\ de \pageref{LastPage}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%fin cabecera  y pie %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{TOMÁS ÁLVAREZ DAZA}
+\usepackage{etoolbox}
+\patchcmd{\chapter}{\thispagestyle{plain}} {\thispagestyle{fancy}}{}{} %use con cuidado
+\begin{document}
+\begin{titlepage}
+	\begin{figure}
+		\includegraphics[width=2.5cm]{image/logoUbi2}
+	\end{figure}
+	\title{INGENIERIA DE REQUERIMIENTOS\\
+	\textbf{Materia:} Ingenieria de software\\ 
+	\textbf{Docente:}  Lic. Elizabeth Patricia Rondo Montes
+ }
+	
+\end{titlepage}
+\maketitle
+\include{controlVersion}
+\include{aprobacion}
+
+\tableofcontents
+\include{especificacionRequerimiento}
+\appendix
+\include{siglas}
+\bibliographystyle{apalike}
+\bibliography{ref}
+
+
+
+\end{document}%final del documento
+%%%%%%%%%%%%LINKS A 
+%http://www.pmoinformatica.com/2016/08/tecnicas-levantamiento-requerimientos.html

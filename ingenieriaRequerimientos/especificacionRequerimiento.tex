@@ -1,0 +1,63 @@
+\chapter*{Especificación de Requerimientos}
+\section{Introducción}
+El objetivo principal de la Especificación de Requisitos del Sistema (ERS) Farmakum es servir como medio de comunicación entre clientes, usuarios, ingenieros de requisitos y desarrolladores. En la ERS se recogerse tanto las necesidades de clientes y usuarios (necesidades del negocio o requisitos de usuario, requisitos de cliente, necesidades de usuario, etc.) como los requisitos que debe cumplir el sistema FarmaKum para satisfacer  necesidades (requisitos del producto, también conocidos como requisitos de sistema o requisitos software).
+
+Este documento fue consensuado entre todas las partes y tiene un carácter contractual, de forma que cualquier cambio que se desee realizar en él la primera línea base deba aplicarse siguiendo el Procedimiento de Control de Cambios establecido en este proyecto.
+\subsection{Propósito}
+Los propósitos de este documentos son ayudar a garantizar que todas las partes interesadas tengan un entendimiento común del sistema FarmaKum que se va a desarrollar, evitar cualquier malentendido durante las etapas posteriores del desarrollo,servir como punto de referencia para todas las partes interesadas durante el proceso de desarrollo, ayudar a identificar cualquier brecha en los requisitos tempranamente, reducir el costo/tiempo de desarrollo, y evitar la repetición del trabajo debido a cambios en los requisitos acordados.
+\subsection{Alcance}
+El proyecto se desarrollará en 3 meses desde el día de inicio. Se realizará según las necesidades del proyecto, de acuerdo al costo,  tiempo y definición de requerimientos. Gestionará la cadena de farmacias y emitirá reportes de ventas, inventarios, stock, farmacéuticos y medicamentos\cite{ahmed_software_2012}.  Ademas implementar un sistema de facturación computarizada.
+\section{Descripción de participantes en el proyecto y Usuarios}
+\subsection{Resumen de partes interesadas}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|p{5cm}|p{7cm}|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+\textbf{Nombre}  & \textbf{Descripción}                                     & \textbf{Responsabilidades}                                                                                                                                                      \\ \hline
+Reyna Santy & Dueña de la farmacia Kumara & \begin{tabular}[c]{@{}l@{}}Representa el administrador de la farmacia Kumara \\Seguimiento del desarrollo del proyecto.\\ Aprueba requisitos y funcionalidades\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Resumen de usuarios}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+\textbf{Nombre} & \textbf{Descripción}                                                                                                            \\ \hline
+Administrador   & Es responsable de gestionar todas la cadena de farmacias                                                                        \\ \hline
+Farmaceútico    & Solo pueden tener información de inventarios de los medicamentos, la ubicación y desde luego los preciosS                       \\ \hline
+Cajero          & Puede ver información pertinente a las ventas y facturación, él no puede ver inventarios de medicamentos ni ubicación ni stock. \\ \hline
+\end{tabular}
+\end{table}
+\subsection{Entorno de usuario}
+Los usuarios entrarán al sistema a través de un navegador web y tras este paso entrarán a la parte de aplicación diseñada para cada uno según los roles permitidos. Los reportes serán generados en formato PDF o Excel para su posterior impresión o ajuste.
+
+\section{Descripción Global del Sistema}
+\subsection{Perespectiva del sistema}
+Por normativa de impuestos nacionales este sistema tendrá un sistema de facturación computarizada por lo que se requiere que el sistema además de las ventas maneje lo que es la facturación con las nuevas disposiciones de impuestos internos que son el código de control y ahora el nuevo código QR.
+
+También el sistema tendrá notificaciones sobre el inventario de los medicamentos para ver que se estén quedando sin un determinado medicamento. Las alertas se enviarán cuando se tenga 20 unidades de cierto medicamento. También emitirá reportes y consultas correspondientes a ventas, inventarios, stock, farmacéuticos, medicamentos, etc.
+
+\subsection{Arquitectura del sistema}
+El sistema seguirá una arquitectura cliente servidor. El software será desarrollado en una arquitectura en tres capas: la capa de presentación, la capa de lógica de negocio y la capa de acceso a datos.
+
+Por otro lado, el administrador de base de datos utilizado para este sistema será MySql.
+\subsection{Restricciones de la arquitectura del sistema}
+Al ser una aplicación web se requiere que se contrate un hosting y dominio para que se pueda acceder a la aplicación desde cualquier lugar.
+\subsection{Resumen de requerimientos}
+\begin{table}[h]
+\begin{tabular}{lp{4cm}lp{6cm}}
+\hline
+\textbf{No. Req.} & \textbf{Requerimiento}                      & \textbf{No. Especificación} & \textbf{Título de la Especificación del sistema o aplicación}                                                                                                                                                                   \\ \hline
+1                 & Sistema de facturación computarizada con QR & 1                           & Maneje la facturación con las nuevas disposiciones de impuestos internos que son el código de control y ahora el nuevo código QR.                                                                                               \\
+2                 & Gestión de  cadenas de farmacia    & 1                           & Ver todo por sucursal y en general                                                                                                                                                                                              \\
+3                 & Sistema de inventarios de medicamentos      & 2                           & Solo el administrador y farmacéuticos pueden tener información de inventarios de los medicamentos. Tendrá notificaciones sobre el inventario de los medicamentos para ver que se estén quedando sin un determinado medicamento. \\
+4                 & Reportes y consultas                        & 1                           & Provee de ventas, inventarios, stock, farmacéuticos, medicamentos                                                                                                                                                               \\ \hline
+\end{tabular}
+\end{table}
+\subsection{Suposiciones y dependencias}
+Se asume que los requisitos descritos en este documento son estables una vez que sea aprobada su versión final.
+
+Se asume que la farmacia cuenta con internet las 24 horas y que tiene máquinas y dispositivos de donde ingresar al sisteama.

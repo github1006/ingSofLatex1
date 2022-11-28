@@ -1,0 +1,36 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {0.1}Introducción}{4}{}%
+\contentsline {subsection}{\numberline {0.1.1}Propósito}{4}{}%
+\contentsline {subsection}{\numberline {0.1.2}Alcance}{4}{}%
+\contentsline {section}{\numberline {0.2}Descripción de participantes en el proyecto y Usuarios}{4}{}%
+\contentsline {subsection}{\numberline {0.2.1}Resumen de partes interesadas}{4}{}%
+\contentsline {subsection}{\numberline {0.2.2}Resumen de usuarios}{5}{}%
+\contentsline {subsection}{\numberline {0.2.3}Entorno de usuario}{5}{}%
+\contentsline {section}{\numberline {0.3}Descripción Global del Sistema}{5}{}%
+\contentsline {subsection}{\numberline {0.3.1}Perespectiva del sistema}{5}{}%
+\contentsline {subsection}{\numberline {0.3.2}Arquitectura del sistema}{5}{}%
+\contentsline {subsection}{\numberline {0.3.3}Restricciones de la arquitectura del sistema}{5}{}%
+\contentsline {subsection}{\numberline {0.3.4}Resumen de requerimientos}{6}{}%
+\contentsline {subsection}{\numberline {0.3.5}Suposiciones y dependencias}{6}{}%
+\contentsline {chapter}{Introducción}{8}{}%
+\contentsline {section}{\numberline {1.1}Descripción del proyecto}{8}{}%
+\contentsline {section}{\numberline {1.2}Necesidades del proyecto}{8}{}%
+\contentsline {section}{\numberline {1.3}Propósito u objetivo}{8}{}%
+\contentsline {section}{\numberline {1.4}Alcance}{9}{}%
+\contentsline {chapter}{Vista general del proyecto}{9}{}%
+\contentsline {section}{\numberline {2.1}Suposiciones y restricciones}{10}{}%
+\contentsline {chapter}{Organización del Proyecto}{10}{}%
+\contentsline {section}{\numberline {3.1}Participantes en el proyecto}{11}{}%
+\contentsline {subsection}{\numberline {3.1.1}Jefe de proyecto}{11}{}%
+\contentsline {subsection}{\numberline {3.1.2}Analista de sistemas}{11}{}%
+\contentsline {subsection}{\numberline {3.1.3}Desarrolladores}{11}{}%
+\contentsline {subsection}{\numberline {3.1.4}Tester}{11}{}%
+\contentsline {section}{\numberline {3.2}Roles y responsabilidades}{11}{}%
+\contentsline {chapter}{Gestión de proceso}{11}{}%
+\contentsline {section}{\numberline {4.1}Estimación del proyecto}{12}{}%
+\contentsline {subsection}{\numberline {4.1.1}Estimación de recursos humanos}{12}{}%
+\contentsline {subsection}{\numberline {4.1.2}Estimación de recursos de software}{12}{}%
+\contentsline {section}{\numberline {4.2}Plan de proyecto}{12}{}%
+\contentsline {subsubsection}{Calendario de proyecto}{12}{}%
+\contentsline {subsubsection}{Diagrama de Gantt}{12}{}%
+\contentsline {section}{\numberline {4.3}Seguimiento y control de proyecto}{12}{}%

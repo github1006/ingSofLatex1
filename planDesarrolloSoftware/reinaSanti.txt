@@ -1,0 +1,31 @@
+El usuario o cliente del sistema de gestión de farmacia es la dueña de la farmacia llamada farmacia “Kumara”. El nombre de la dueña es Reina Santi. Esta farmacia inicio hace años siendo primeramente una tienda pequeña que fue creciendo con el pasar de los años y actualmente tiene alrededor de 
+
+5 sucursales en la ciudad de La Paz, por lo que se hace difícil seguir manejando la
+información de manera manual. Actualmente se tiene registrado todo en 
+hojas de archivos Excel desde los datos de los 
+medicamentos, los 
+empleados (farmacéuticos), los 
+proveedores, las 
+compras y las ventas. 
+
+Con el pasar de los años la farmacia se hizo de reputación y también tiene convenios con ciertos hospitales para dar medicamentos prestados o con cierto
+porcentaje de descuento. Por normativa de impuestos nacionales ordenaron que todos los negocios mucho más siendo esta una cadena de farmacia deben de tener un 
+
+sistema de facturación computarizada por lo que se requiere que el sistema además de las 
+ventas maneje lo que es la facturación con las nuevas 
+disposiciones de 
+impuestos internos que son el c
+ódigo de control y ahora el nuevo 
+código QR. La señora Reina Santi quiere tener la posibilidad de poder ver toda la 
+
+gestión de todas sus cadenas de farmacia, ella tiene que poder ver todo 
+por sucursal y en general. Sus farmacéuticos solo pueden tener información de
+inventarios de los medicamentos, la ubicación y desde luego los precios. 
+
+El cajero solo puede ver información pertinente a las 
+ventas y facturación, él no puede ver inventarios de medicamentos ni ubicación ni stock. También se requiere que el sistema tenga notificaciones sobre el inventario de los medicamentos para ver que se estén quedando sin un determinado medicamento. Las 
+
+alertas se las debe enviar cuando se 
+tenga 20 unidades de cierto medicamento. Desde luego que el sistema debe emitir 
+reportes y consultas correspondientes a 
+ventas, inventarios, stock, farmacéuticos, medicamentos, etc.
