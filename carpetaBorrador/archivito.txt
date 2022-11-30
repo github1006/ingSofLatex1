@@ -1,2 +1,4 @@
 Esto es un archivito para subir la git hub todavia se subio al repositorio remoto.
 
+Esto es un cambio para git para usar el git diff para comparar los archivos
+
